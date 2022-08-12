@@ -10,7 +10,8 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.send(
-    `<h1>Store Api <br><a href="api/v1/products"> Product Routes </a> </h1><br>
+    `
+    <h1>Store Api <br><a href="api/v1/products"> Product Routes </a> </h1><br>
     '<h1>Store Api Static <br><a href="api/v1/products/static"> Product Routes Static </a> </h1>
     <br>
     <h1>Products sorted by name <a href="api/v1/products?sort=name"> sort </a></h1><br>
@@ -40,7 +41,7 @@ const StartServer = async () => {
 };
 
 StartServer();
-
+// hellow
 
 
 
