@@ -12,5 +12,7 @@ save the file and run the server on localhost setup app.js with your required pr
 
 need dummy data?
 dont worry just run node populate.js and it will create 23 data entries into mongoose.
+need random data of people firstname and last name with some description use generator.js
+setup the api, mongoose, schema and run it standalone
 
 
