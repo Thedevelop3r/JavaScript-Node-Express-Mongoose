@@ -1,5 +1,5 @@
 //--------------------------
-//-- To store this data create a mongoose schema in models dir then connect it with env varibale
+//-- To store this data create a mongoose schema in models dir then connect it with env variable
 // uri of mongo cloud
 
 app.use("/api/generate/data", (req, res) => {
